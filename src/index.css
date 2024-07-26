@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-galleria-thumbnail-container{
+    background-color: white;
+}
+@media (max-width: 575px) {
+    .p-galleria-thumbnail-container{
+        display: none;
+    }
+
+}
+
