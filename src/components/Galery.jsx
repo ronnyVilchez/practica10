@@ -51,7 +51,7 @@ export default function Galery() {
     }
 
     return (
-        <div className="card w-[500px]"> 
+        <div className="card sm:w-[500px]"> 
             <Galleria value={images} responsiveOptions={responsiveOptions} numVisible={4} circular style={{ maxWidth: '640px'  }}
                 showItemNavigators  item={itemTemplate} thumbnail={thumbnailTemplate} />
         </div>

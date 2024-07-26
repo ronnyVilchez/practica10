@@ -13,11 +13,12 @@ export default function NavBar() {
 
     return (
 
-        <div className="card px-[7rem] py-4" >
+        <div className="card px-4 sm:px-[7rem] py-4" >
             <div className="w-full flex flex-row justify-between items-center border-solid border-[#BFC0C4] border-b-[1px] py-[2rem]">
                 <div className="flex flex-row items-center gap-5">
+                    <i className='pi pi-align-justify sm:hidden'></i>
                     <img src="/images/logo.svg" alt="logo" />
-                    <TabMenu className=' text-[#808386]' model={items} />
+                    <TabMenu className='hidden sm:flex text-[#808386]' model={items} />
                 </div>
                 <div className="flex flex-row items-center gap-[3rem]">
                     <span className='pi pi-shopping-cart' style={{fontSize:'1.8rem'}}></span>
